@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Imad Janbain - Machine Learning Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0e27"/>
+      <stop offset="40%" stop-color="#1e1b4b"/>
+      <stop offset="75%" stop-color="#5b21b6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+
+    <radialGradient id="glowViolet" cx="82%" cy="28%" r="55%">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="18%" cy="85%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.06"/>
+    </pattern>
+
+    <linearGradient id="textShine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#67e8f9"/>
+      <stop offset="60%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+      <animate attributeName="x1" values="-1;1.5;-1" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;2.5;0" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <clipPath id="mainClip">
+      <rect width="1280" height="320"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#mainClip)">
+    <rect width="1280" height="320" fill="url(#bg)"/>
+    <rect width="1280" height="320" fill="url(#grid)"/>
+    <rect width="1280" height="320" fill="url(#glowViolet)"/>
+    <rect width="1280" height="320" fill="url(#glowCyan)"/>
+
+    <!-- Morphing signal lines -->
+    <g fill="none" stroke-width="1.2" opacity="0.35">
+      <path stroke="#22d3ee" d="M -100,130 Q 160,90 380,130 T 860,130 T 1380,130">
+        <animate attributeName="d" dur="8s" repeatCount="indefinite"
+          values="M -100,130 Q 160,90 380,130 T 860,130 T 1380,130;
+                  M -100,130 Q 160,170 380,130 T 860,130 T 1380,130;
+                  M -100,130 Q 160,90 380,130 T 860,130 T 1380,130"/>
+      </path>
+      <path stroke="#a78bfa" d="M -100,185 Q 180,220 440,185 T 920,185 T 1380,185">
+        <animate attributeName="d" dur="10s" repeatCount="indefinite"
+          values="M -100,185 Q 180,220 440,185 T 920,185 T 1380,185;
+                  M -100,185 Q 180,150 440,185 T 920,185 T 1380,185;
+                  M -100,185 Q 180,220 440,185 T 920,185 T 1380,185"/>
+      </path>
+      <path stroke="#67e8f9" stroke-width="0.8" opacity="0.6" d="M -100,70 Q 140,50 360,70 T 820,70 T 1380,70">
+        <animate attributeName="d" dur="12s" repeatCount="indefinite"
+          values="M -100,70 Q 140,50 360,70 T 820,70 T 1380,70;
+                  M -100,70 Q 140,95 360,70 T 820,70 T 1380,70;
+                  M -100,70 Q 140,50 360,70 T 820,70 T 1380,70"/>
+      </path>
+    </g>
+
+    <!-- Floating particles -->
+    <g>
+      <circle cx="60" r="2.5" fill="#22d3ee">
+        <animate attributeName="cy" from="340" to="-20" dur="7s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.15;0.85;1" dur="7s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="160" r="1.5" fill="#a78bfa">
+        <animate attributeName="cy" from="340" to="-20" dur="9s" begin="1s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.15;0.85;1" dur="9s" begin="1s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="240" r="2" fill="#67e8f9">
+        <animate attributeName="cy" from="340" to="-20" dur="6.5s" begin="0.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.15;0.85;1" dur="6.5s" begin="0.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="340" r="1.8" fill="#a78bfa">
+        <animate attributeName="cy" from="340" to="-20" dur="8s" begin="2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.15;0.85;1" dur="8s" begin="2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="450" r="2.2" fill="#22d3ee">
+        <animate attributeName="cy" from="340" to="-20" dur="7.5s" begin="3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.15;0.85;1" dur="7.5s" begin="3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="560" r="1.5" fill="#67e8f9">
+        <animate attributeName="cy" from="340" to="-20" dur="9.5s" begin="1.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.15;0.85;1" dur="9.5s" begin="1.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="680" r="2" fill="#a78bfa">
+        <animate attributeName="cy" from="340" to="-20" dur="7s" begin="2.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.15;0.85;1" dur="7s" begin="2.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="790" r="2.5" fill="#22d3ee">
+        <animate attributeName="cy" from="340" to="-20" dur="8.5s" begin="0.7s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.15;0.85;1" dur="8.5s" begin="0.7s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="880" r="1.8" fill="#67e8f9">
+        <animate attributeName="cy" from="340" to="-20" dur="6.8s" begin="3.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.15;0.85;1" dur="6.8s" begin="3.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="190" r="1.3" fill="#c4b5fd">
+        <animate attributeName="cy" from="340" to="-20" dur="10s" begin="4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.6;0.6;0" keyTimes="0;0.15;0.85;1" dur="10s" begin="4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="400" r="1.4" fill="#c4b5fd">
+        <animate attributeName="cy" from="340" to="-20" dur="11s" begin="5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.6;0.6;0" keyTimes="0;0.15;0.85;1" dur="11s" begin="5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="620" r="1.4" fill="#c4b5fd">
+        <animate attributeName="cy" from="340" to="-20" dur="10.5s" begin="2.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.6;0.6;0" keyTimes="0;0.15;0.85;1" dur="10.5s" begin="2.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="830" r="1.6" fill="#c4b5fd">
+        <animate attributeName="cy" from="340" to="-20" dur="9s" begin="4.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.6;0.6;0" keyTimes="0;0.15;0.85;1" dur="9s" begin="4.5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- Waves -->
+    <path fill="#22d3ee" fill-opacity="0.24" d="M0,260 C320,300 640,220 960,260 C1120,280 1200,260 1280,270 L1280,320 L0,320 Z">
+      <animate attributeName="d" dur="9s" repeatCount="indefinite"
+        values="M0,260 C320,300 640,220 960,260 C1120,280 1200,260 1280,270 L1280,320 L0,320 Z;
+                M0,270 C320,230 640,300 960,250 C1120,230 1200,280 1280,260 L1280,320 L0,320 Z;
+                M0,260 C320,300 640,220 960,260 C1120,280 1200,260 1280,270 L1280,320 L0,320 Z"/>
+    </path>
+    <path fill="#a78bfa" fill-opacity="0.2" d="M0,280 C280,250 560,300 840,270 C1040,250 1160,290 1280,275 L1280,320 L0,320 Z">
+      <animate attributeName="d" dur="11s" repeatCount="indefinite"
+        values="M0,280 C280,250 560,300 840,270 C1040,250 1160,290 1280,275 L1280,320 L0,320 Z;
+                M0,270 C280,300 560,250 840,290 C1040,300 1160,260 1280,285 L1280,320 L0,320 Z;
+                M0,280 C280,250 560,300 840,270 C1040,250 1160,290 1280,275 L1280,320 L0,320 Z"/>
+    </path>
+
+    <!-- Text block -->
+    <g transform="translate(80, 0)">
+      <!-- Role pill - REPOSITIONED -->
+      <g transform="translate(0, 90)">
+        <rect x="-2" y="-18" width="280" height="26" rx="13" fill="#22d3ee" fill-opacity="0.15" stroke="#22d3ee" stroke-width="1">
+          <animate attributeName="stroke-opacity" values="0.4;0.95;0.4" dur="2.8s" repeatCount="indefinite"/>
+          <animate attributeName="fill-opacity" values="0.1;0.22;0.1" dur="2.8s" repeatCount="indefinite"/>
+        </rect>
+        <text x="12" y="0" font-family="'SF Mono','Consolas','Courier New',monospace" font-size="11" font-weight="700" fill="#67e8f9" letter-spacing="2.5">ML ENGINEER · APPLIED SCIENTIST</text>
+      </g>
+
+      <!-- Name with shimmer -->
+      <text x="0" y="175" font-family="'Segoe UI','Helvetica Neue','Inter',sans-serif" font-size="76" font-weight="800" fill="url(#textShine)" letter-spacing="-1.5">
+        Imad Janbain
+      </text>
+
+      <!-- Tagline - REPOSITIONED for engineering first -->
+      <text x="0" y="215" font-family="'Segoe UI','Helvetica Neue','Inter',sans-serif" font-size="22" font-weight="400" fill="#e0e7ff">
+        Building Production ML for Time Series, Hydrology &amp; Climate
+      </text>
+
+      <!-- Meta line -->
+      <text x="0" y="250" font-family="'Segoe UI','Helvetica Neue','Inter',sans-serif" font-size="14" font-weight="500" fill="#a5b4fc" opacity="0.85">
+        Ph.D. Deep Learning · Based at M2C – CNRS, Université de Rouen Normandie
+      </text>
+    </g>
+
+    <!-- Constellation accent -->
+    <g transform="translate(1080, 160)">
+      <circle cx="0" cy="0" r="115" fill="none" stroke="#22d3ee" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="6 12">
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="30s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="0" cy="0" r="88" fill="none" stroke="#a78bfa" stroke-width="1" stroke-opacity="0.45" stroke-dasharray="3 8">
+        <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="22s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="0" cy="0" r="58" fill="none" stroke="#22d3ee" stroke-width="1" stroke-opacity="0.55"/>
+      <circle cx="0" cy="0" r="30" fill="#22d3ee" fill-opacity="0.22">
+        <animate attributeName="r" values="30;40;30" dur="3.2s" repeatCount="indefinite"/>
+        <animate attributeName="fill-opacity" values="0.2;0.5;0.2" dur="3.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="0" cy="0" r="6" fill="#67e8f9">
+        <animate attributeName="r" values="6;8;6" dur="1.6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="88" cy="0" r="4" fill="#a78bfa">
+        <animate attributeName="r" values="4;6.5;4" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="fill-opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="-88" cy="0" r="4" fill="#22d3ee">
+        <animate attributeName="r" values="4;6.5;4" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+        <animate attributeName="fill-opacity" values="0.6;1;0.6" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="0" cy="88" r="4" fill="#a78bfa">
+        <animate attributeName="r" values="4;6.5;4" dur="2s" begin="1s" repeatCount="indefinite"/>
+        <animate attributeName="fill-opacity" values="0.6;1;0.6" dur="2s" begin="1s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="0" cy="-88" r="4" fill="#22d3ee">
+        <animate attributeName="r" values="4;6.5;4" dur="2s" begin="1.5s" repeatCount="indefinite"/>
+        <animate attributeName="fill-opacity" values="0.6;1;0.6" dur="2s" begin="1.5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+</svg>
