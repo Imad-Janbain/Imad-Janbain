@@ -35,9 +35,9 @@
 
 <div align="center">
 
-| 📄 Publications | 🎤 Conferences | 🎓 Education | 🌍 Domain |
+| 📄 Research | 🎤 Conferences | 🎓 Education | 🌍 Domain |
 |:---:|:---:|:---:|:---:|
-| **2 peer-reviewed** <br/> + under review | **AGU · EGU** <br/> *invited talks* | **Ph.D. + M.Sc.** <br/> Deep Learning | **Hydrology** <br/> Climate AI |
+| **Peer-reviewed** <br/> *Journal publications* | **AGU · EGU** <br/> *Invited talks* | **Ph.D. + M.Sc.** <br/> *Deep Learning* | **Hydrology** <br/> *Climate AI* |
 
 </div>
 
@@ -51,7 +51,7 @@
 
 I design deep learning systems at the intersection of **geoscience, climate, and modern ML** — combining classical signal processing (**wavelets, decomposition**) with state-of-the-art neural architectures (**GRU, LSTM, Transformer, KAN**) and **LLM-powered explainability** to turn black-box predictions into actionable insight for environmental decision-making.
 
-Currently a postdoctoral researcher at **M2C – CNRS** (Université de Rouen Normandie) through August 2026 — open to **Research Scientist**, **Applied Scientist**, and **ML Engineer** roles in industry.
+Currently a postdoctoral researcher at **M2C – CNRS** (Université de Rouen Normandie) — open to **Research Scientist**, **Applied Scientist**, and **ML Engineer** roles in industry.
 
 <br/>
 
@@ -69,7 +69,7 @@ Currently a postdoctoral researcher at **M2C – CNRS** (Université de Rouen No
 Groundwater levels, streamflow, and extreme floods — deep learning fused with physical priors and climate reanalysis (ERA5).
 
 ### 🌊 Time Series Deep Learning
-LSTM · GRU · BiLSTM · Transformer · **KAN / TKAN** — benchmarked with KGE, NSE, CFD metrics.
+LSTM · GRU · BiLSTM · Transformer · **KAN / TKAN** — benchmarked on real hydrological data.
 
 </td>
 <td width="50%" valign="top">
@@ -92,18 +92,18 @@ Sentinel-1 SAR flood segmentation · LLM-powered natural-language reporting for 
 
 ## 📚 &nbsp; Selected Publications
 
-> 📝 *[FILL IN — paper titles, venues, and DOIs below]*
+> 📝 *[Fill in with your actual paper titles and DOIs]*
 
-- **[Paper Title 1]** &nbsp; *Journal of Hydrology: Regional Studies, 2025* <br/>
+- **[Paper Title 1]** &nbsp; · &nbsp; *Journal of Hydrology: Regional Studies* <br/>
   Deep learning framework for extreme flood prediction on the Seine River Basin, introducing a quantile-tail-huber loss function for imbalanced hydrological extremes. <br/>
-  [![DOI](https://img.shields.io/badge/DOI-10.xxxx%2Fxxxxx-5b21b6?style=flat)](https://doi.org/xxx) &nbsp; [![Code](https://img.shields.io/badge/Code-06b6d4?style=flat&logo=github&logoColor=white)](https://github.com/Imad-Janbain)
+  [![DOI](https://img.shields.io/badge/DOI-5b21b6?style=flat)](https://doi.org/xxx) &nbsp; [![Code](https://img.shields.io/badge/Code-06b6d4?style=flat&logo=github&logoColor=white)](https://github.com/Imad-Janbain)
 
-- **[Paper Title 2]** &nbsp; *Journal Name, Year* <br/>
-  Brief one-line description of the contribution. <br/>
-  [![DOI](https://img.shields.io/badge/DOI-10.xxxx%2Fxxxxx-5b21b6?style=flat)](https://doi.org/xxx)
+- **[Paper Title 2]** &nbsp; · &nbsp; *Journal Name* <br/>
+  Brief description of the contribution. <br/>
+  [![DOI](https://img.shields.io/badge/DOI-5b21b6?style=flat)](https://doi.org/xxx)
 
-- **[Paper Title 3 — under review]** &nbsp; *Journal Name* <br/>
-  Brief one-line description.
+- **[Paper Title — under review]** &nbsp; · &nbsp; *Journal Name* <br/>
+  Brief description.
 
 📖 Full publication list on [**ResearchGate**](https://www.researchgate.net/profile/Imad-Janbain).
 
@@ -150,7 +150,7 @@ Sentinel-1 SAR flood segmentation · LLM-powered natural-language reporting for 
 <p>
   <img src="https://img.shields.io/badge/Anthropic%20API-C96442?style=for-the-badge&logo=anthropic&logoColor=white"/>
   <img src="https://img.shields.io/badge/MCP%20%2F%20Agents-0a0e27?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/GCP%20(certified)-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white"/>
   <img src="https://img.shields.io/badge/AWS%20SageMaker-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
   <img src="https://img.shields.io/badge/KAN-a78bfa?style=for-the-badge"/>
 </p>
@@ -165,13 +165,13 @@ Sentinel-1 SAR flood segmentation · LLM-powered natural-language reporting for 
 
 ### 💧 &nbsp; Wavelet + Deep Learning for Groundwater Forecasting
 
-> **End-to-end production-grade pipeline** · MODWT signal decomposition + GRU/LSTM/BiLSTM + Optuna HPO + ERA5 climate inputs.
+> **End-to-end production-grade pipeline** — MODWT signal decomposition combined with recurrent deep learning for non-stationary time series.
 
 **Highlights**
-- MODWT decomposition (**LA(8), 4 levels**) improves SNR on non-stationary groundwater series
-- Optuna Bayesian search across architecture + hyperparameters
-- Full visualization module (`wavelet_viz.py`) for reproducible result inspection
-- Evaluated on real basin data with **KGE / NSE / CFD** metrics *(add your best scores here)*
+- MODWT decomposition (**LA(8), multi-level**) as a frontend for deep sequence models — improving signal-to-noise on non-stationary groundwater series
+- Bayesian hyperparameter search across architecture and training configurations with **Optuna**
+- Integration of **ERA5 climate reanalysis** as exogenous drivers
+- Full visualization module for reproducible result inspection and scientific reporting
 
 <p>
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white"/>
@@ -185,13 +185,13 @@ Sentinel-1 SAR flood segmentation · LLM-powered natural-language reporting for 
 
 ### 🌊 &nbsp; River Discharge Forecasting with LLM Explainability
 
-> **Research → production bridge** · Multi-model forecasting on USGS streamflow with Claude-powered narrative reports.
+> **Research-to-production bridge** — Multi-model streamflow forecasting with LLM-generated natural-language reports.
 
 **Highlights**
-- Hybrid modeling: **ARIMA** (baseline) · **XGBoost** (structured) · **BiLSTM** (sequential)
-- End-to-end pipeline: ingestion → feature engineering → modeling → evaluation
-- **LLM layer** generates human-readable explanations of model outputs — bridges the gap between quantitative forecasts and decision-maker insight
-- Dockerized for reproducibility
+- Hybrid modeling approach: **ARIMA** (baseline) · **XGBoost** (structured) · **BiLSTM** (sequential)
+- End-to-end pipeline: ingestion → feature engineering → modeling → evaluation → reporting
+- **LLM explainability layer** generating human-readable narratives from model outputs — bridging quantitative forecasts and decision-maker insight
+- **Dockerized** for reproducibility and deployment portability
 
 <p>
 <img src="https://img.shields.io/badge/BiLSTM-EE4C2C?style=flat&logo=pytorch&logoColor=white"/>
@@ -221,9 +221,9 @@ Sentinel-1 SAR flood segmentation · LLM-powered natural-language reporting for 
 
 ## ⚡ &nbsp; Currently
 
-- 🔭 &nbsp; Scaling MLOps for time-series forecasting (**Airflow + MLflow + Docker + CI/CD**)
+- 🔭 &nbsp; Scaling MLOps for time-series forecasting (**Airflow · MLflow · Docker · CI/CD**)
 - 🧪 &nbsp; Exploring **KAN** and **TKAN** as replacements for MLPs in hydroclimatic pipelines
-- ☁️ &nbsp; Building cloud production skills (**GCP** certified · **AWS SageMaker** in progress)
+- ☁️ &nbsp; Growing cloud production skills (**GCP · AWS SageMaker**)
 - 🌐 &nbsp; Open to collaborations bridging **academic research** and **industrial ML deployment**
 
 <br/>
